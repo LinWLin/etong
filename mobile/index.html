@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta>
+	<title>LeKeHeBe_首页</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+</head>
+<body>
+	
+	<nav class="l-nav">
+		<a href="index.html"><img src="img/logo.png" alt=""></a>
+		<span class="btn-3"></span>
+	</nav>
+
+	<div class="nav-bar">
+		<ul class="clearfix">
+			<li><a href="index.html">首页</a></li>
+			<li><a href="pages/product.html">安全座椅</a></li>
+			<li><a href="pages/news.html">新闻资讯</a></li>
+			<li><a href="pages/huodong.html">品牌活动</a></li>
+			<li><a href="pages/aboutUs.html">联系我们</a></li>
+		</ul>	
+	</div>
+
+	<div class="banner flexslider">
+		<ul class="slides">
+			<li><a href="#"><img src="img/banner.png" alt=""></a></li>
+			<li><a href="#"><img src="img/banner.png" alt=""></a></li>
+		</ul>
+	</div>
+
+	<section class="l-prd flexslider">
+		<ul class="l-p-ul slides clearfix">
+			<li class="l-p-slide">
+				<a href="pages/datail.html"><img src="img/prd-1.png" alt=""></a>
+			</li>
+			<li class="l-p-slide">
+				<a href="pages/datail.html"><img src="img/prd-1.png" alt=""></a>
+			</li>
+			<li class="l-p-slide">
+				<a href="pages/datail.html"><img src="img/prd-1.png" alt=""></a>
+			</li>
+		</ul>
+	</section>
+
+	<section class="l-brand">
+		<h2 class="l-title">品牌优势</h2>
+		<ul class="l-brand-list clearfix">
+			<li>
+				<div><img src="img/a11.png" alt=""></div>
+				<h4>品牌实力</h4>
+			</li>
+			<li>
+				<div><img src="img/a12.png" alt=""></div>
+				<h4>品牌发展力</h4>
+			</li>
+			<li>
+				<div><img src="img/a13.png" alt=""></div>
+				<h4>品牌创新力</h4>
+			</li>
+			<li>
+				<div><img src="img/a14.png" alt=""></div>
+				<h4>品牌扶持力</h4>
+			</li>
+		</ul>
+	</section>
+
+	<section class="l-msg">
+		<h2 class="l-title">最新资讯</h2>
+		<div class="l-msg-item">
+			<a class="l-block clearfix" href="pages/news.html">
+				<div class="l-msg-lf"><img src="img/msg_01.png" alt=""></div>
+				<div class="l-msg-rt">
+					<h3>LeKeHeBe专注儿童乘车安全</h3>
+					<p>很多开车的家长以为，把孩子抱在怀里，开车速度慢一些，就不会有什么危险。然而情况并不这样简单，市交警支队提醒市民，儿童乘车安全不可忽..</p>
+				</div>
+			</a>
+		</div>
+		<div class="l-msg-item">
+			<a href="pages/news.html" class="l-block clearfix">
+				<div class="l-msg-lf"><img src="img/msg_02.png" alt=""></div>
+				<div class="l-msg-rt">
+					<h3>LeKeHeBe专注儿童乘车安全</h3>
+					<p>很多开车的家长以为，把孩子抱在怀里，开车速度慢一些，就不会有什么危险。然而情况并不这样简单，市交警支队提醒市民，儿童乘车安全不可忽..</p>
+				</div>
+			</a>
+		</div>
+	</section>
+
+	<section class="l-active">
+		<h2 class="l-title">活动中心</h2>
+		<div class="l-a-list">
+			<a href="pages/huodong.html"><img src="img/active_11.png" alt=""></a>
+		</div>
+		<div class="l-a-list">
+			<a href="pages/huodong.html"><img src="img/active_13.png" alt=""></a>
+		</div>
+		<div class="l-a-list">
+			<a href="pages/huodong.html"><img src="img/active_16.png" alt=""></a>
+		</div>
+	</section>
+
+	<footer class="l-footer clearfix">
+		<div class="l-f-lf">
+			<h2>友情链接</h2>
+			<ul class="clearfix">
+				<li><a href="#"><img src="img/footer_22.png" alt=""></a></li><li><a href="#"><img src="img/footer_22.png" alt=""></a></li><li><a href="#"><img src="img/footer_30.png" alt=""></a></li><li><a href="#"><img src="img/footer_30.png" alt=""></a></li>
+			</ul>
+		</div>
+		<div class="l-f-rt">
+			<h2>联系我们</h2>
+			<!-- <div class="l-f-ewm"><img src="img/footer_19.png" alt=""></div>
+			<ol>
+				<li><i class="icon-phon"></i>400-123-123</li>
+				<li><i class="icon-em"></i>1234@qq.com</li>
+				<li><i class="icon-tao"></i>www.ineei.com</li>
+			</ol> -->
+			<div class="img-ft"><img style="width:100%;" src="img/ft_03.png" alt=""></div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/common.js"></script>
+	<script>
+		$(document).ready(function(){
+	        $('.flexslider').eq(0).flexslider({
+	        	animation:"slide",
+	            directionNav: false,
+	            pauseOnAction: false
+	        });
+	        $('.flexslider').eq(1).flexslider({
+	        	animation:"slide",
+	        	direction:"vertical",
+	        	slideshowSpeed:"10000",
+	            directionNav: false,
+	            pauseOnAction: false
+	        });
+	    });
+	</script>
+</body>
+</html>

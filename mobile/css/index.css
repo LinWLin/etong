@@ -1,0 +1,57 @@
+.l-prd {
+    padding: 10px!important;
+    margin-top: 10px!important;
+    box-sizing: border-box;
+    width: 100%;
+ }
+.l-prd .l-p-ul img {
+    width: 100%;
+}
+
+
+.l-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	color: #000;
+}
+.l-brand { margin-top: 20px; }
+.l-brand .l-brand-list { width: 100%;margin-top: 10px; }
+.l-brand .l-brand-list li { float: left; width: 25%; }
+.l-brand .l-brand-list li div { width: 68%;margin: 0 auto; }
+.l-brand .l-brand-list li div img { width: 100%; }
+.l-brand .l-brand-list li h4 { text-align: center;font-size: .4rem;line-height: 1.2rem; color: #000;font-weight: bold;margin-top: 5px; }
+
+
+.l-msg {margin-top: 20px;}
+.l-msg-item { padding: 10px; }
+.l-msg-item .l-msg-lf { width: 40%;float: left; }
+.l-msg-item .l-msg-lf img { width: 100%; }
+.l-msg-item .l-msg-rt { width: 60%;float: left;box-sizing: border-box;padding-left: 15px; }
+.l-msg-item .l-msg-rt h3 { font-size: .6rem;font-weight: normal;color: #000; }
+.l-msg-item .l-msg-rt p { font-size: .4rem;text-indent: 1em; }
+
+
+.l-active { padding: 10px; }
+.l-active .l-title { margin-bottom: 20px; }
+.l-active .l-a-list { margin-bottom: 10px; }
+.l-active .l-a-list img { width: 100%; }
+
+
+.l-footer { padding: 10px;margin-top: 20px; }
+.l-footer .l-f-lf { float: left;width: 50%; }
+.l-footer .l-f-lf h2,.l-footer .l-f-rt h2 { font-size:.8rem;line-height: 20px;font-weight: normal;color:#000;margin-bottom: 10px;}
+.l-footer .l-f-lf ul li { float: left;width: 50%;margin: 6px 0;box-sizing: border-box;padding-right: 8px; }
+.l-footer .l-f-lf ul li img { width: 100%; }
+
+.l-footer .l-f-rt { width: 50%; float: left; }
+.l-footer .l-f-rt .l-f-ewm {float: left; width: 22%; }
+.l-footer .l-f-rt .l-f-ewm img { width: 100%; }
+.l-footer .l-f-rt ol { float: left;width: 67%;padding-left: 8px;box-sizing: border-box; }
+.l-footer .l-f-rt ol li { font-size: .5rem;height: 12px;line-height: 12px; }
+.l-footer .l-f-rt ol li i { display: inline-block;width: 16px;height: 16px; }
+
+.l-footer .l-f-rt .icon-phon { background: url('../img/footer_25.png') no-repeat; background-size: 12px; }
+.l-footer .l-f-rt .icon-em { background: url('../img/footer_28.png') no-repeat; background-size: 12px; }
+.l-footer .l-f-rt .icon-tao { background: url('../img/footer_32.png') no-repeat; background-size: 12px; }

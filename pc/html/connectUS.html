@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeKeHeBe-联系我们</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/clear.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/news.css">
+    <!--[if lt IE 9]-->
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
+
+</head>
+<body>
+<iframe id="h" src="header.html" frameborder="0" scrolling="no"></iframe>
+<div class="v-1">
+    <img src="../img/d01.jpg" alt="">
+</div>
+<div class="v-2">
+    <div class="v-2-in">
+        <p>当前位置：<i>首页</i>><i>联系我们</i></p>
+    </div>
+</div>
+<div class="n-1">
+    <div class="n-1-in">
+        <div>
+            <div class="n-1-in-title f-clear">
+                <i></i>
+                <i>联系方式</i>
+                <i></i>
+            </div>
+            <div class="n-1-in-l">
+                <img src="../img/e01.jpg" alt="">
+            </div>
+            <div class="n-1-in-r">
+                <p>电话：400-905-7859</p>
+                <p>手机：15088589289</p>
+                <p>传真：0577-88725785</p>
+                <p>网址:http://weibo.com/u/3705115782?is_hot=1</p>
+                <p>邮箱：yutou0328@163.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="n-1">
+    <div class="n-1-in">
+        <div>
+            <div class="n-1-in-title f-clear">
+                <i></i>
+                <i>联系我们</i>
+                <i></i>
+            </div>
+            <div class="mapbox">
+                <div id="mapBox"></div>
+                <div class="locationInfor">
+                    <div class="locationInforInner">
+                        <p>服务热线：400-905-7859</p>
+                        <p>邮箱：lekehebe@qq.com</p>
+                        <p>地址：浙江省温州市鹿城区</p>
+                        <p>　　　霸力路29号</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<iframe id="f" src="footer.html" frameborder="0" scrolling="no"></iframe>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ySfciRWEKRD8fRZrStdkuQ4aKtzKn1ww"></script>
+<script type="text/javascript">
+    var map = new BMap.Map("mapBox");
+    var point = new BMap.Point(120.615335,28.030764);
+    map.centerAndZoom(point, 19);
+    var marker = new BMap.Marker(point);// 创建标注
+    map.addOverlay(marker);             // 将标注添加到地图中
+    //    map.centerAndZoom("杭州", 16);
+    map.enableScrollWheelZoom();    //启用滚轮放大缩小，默认禁用
+    map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+
+    map.addControl(new BMap.NavigationControl());  //添加默认缩放平移控件
+    map.addControl(new BMap.OverviewMapControl()); //添加默认缩略地图控件
+    map.addControl(new BMap.OverviewMapControl({isOpen: true, anchor: BMAP_ANCHOR_BOTTOM_RIGHT}));   //右下角，打开
+
+    var localSearch = new BMap.LocalSearch(map);
+    localSearch.enableAutoViewport(); //允许自动调节窗体大小
+    var opts = {
+        width: 200,     // 信息窗口宽度
+        height: 100,     // 信息窗口高度
+//        title : "海底捞王府井店" , // 信息窗口标题
+        enableMessage: true//设置允许信息窗发送短息
+//        message:"亲耐滴，晚上一起吃个饭吧？戳下面的链接看下地址喔~"
+    }
+    var infoWindow = new BMap.InfoWindow("地址：浙江省温州市鹿城区霸力路29号", opts);  // 创建信息窗口对象
+    marker.addEventListener("click", function () {
+        map.openInfoWindow(infoWindow, point); //开启信息窗口
+    });
+
+</script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>

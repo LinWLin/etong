@@ -1,0 +1,18 @@
+body { background: #fff!important; }
+.l-contact { padding: 10px; }
+.l-contact h2,
+.l-contact-us h2 { font-size: 1rem;height: 50px;line-height: 50px;color: #000;font-weight: bold;text-align: center; }
+.l-contact .l-contact-box .l-logo,
+.l-contact .l-contact-box .l-contact-info { width: 50%;float: left; }
+.l-contact .l-contact-box .l-logo img { display: block;width: 100%;padding: 20px 0; }
+.l-contact .l-contact-box .l-contact-info p { font-size: .6rem;height: 26px;line-height: 26px;overflow: hidden;white-space:nowrap; }
+
+
+.l-contact-us .l-map { position: relative; }
+.l-contact-us .l-map .locationInfor { position: absolute;right: 10px;top: 10px;width: 30%;height: 80px;background: rgba(0, 0, 0, .5);color: #fff;padding: 5px; }
+.l-contact-us .l-map .locationInfor p { font-size: .6rem;height: 20px;line-height: 20px;}
+
+
+
+
+#mapBox { width: 100%; height: 200px; }
