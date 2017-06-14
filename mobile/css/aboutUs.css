@@ -9,7 +9,7 @@ body { background: #fff!important; }
 
 
 .l-contact-us .l-map { position: relative; }
-.l-contact-us .l-map .locationInfor { position: absolute;right: 10px;top: 10px;width: 40%;height: 80px;background: rgba(0, 0, 0, .5);color: #fff;padding: 5px; }
+.l-contact-us .l-map .locationInfor { position: absolute;right: 10px;top: 10px;width: 36%;height: 80px;background: rgba(0, 0, 0, .5);color: #fff;padding: 5px; }
 .l-contact-us .l-map .locationInfor p { font-size: .6rem;height: 20px;line-height: 20px;}
 
 
